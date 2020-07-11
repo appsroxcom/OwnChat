@@ -1,0 +1,11 @@
+<resources>
+    <string-array name="hide_leave">
+        <item>Hide Chat</item>
+        <item>Leave Chat</item>
+    </string-array>
+
+    <string-array name="unhide_leave">
+        <item>Unhide Chat</item>
+        <item>Leave Chat</item>
+    </string-array>
+</resources>

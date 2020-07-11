@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">OwnChat</string>
+    <string name="title_chats">Chats</string>
+    <string name="title_settings">Settings</string>
+
+    <string name="show_all">Show All</string>
+    <string name="leave_confirm">Are you sure you want to leave the chat?</string>
+    <string name="upload_confirm">Upload file %1$s of size %2$s?</string>
+    <string name="pls_wait">Please wait...</string>
+    <string name="press_exit">Press again to exit</string>
+
+    <string name="err_retry">Please try again later</string>
+    <string name="err_network">No network connectivity</string>
+    <string name="err_text">Enter valid text</string>
+    <string name="err_size">File size exceeds %1$s</string>
+    <string name="err_unknown">Unknown error occurred</string>
+
+    <!-- Preference Titles -->
+    <string name="profile_header">Profile</string>
+    <string name="misc_header">Miscellaneous</string>
+
+    <!-- Profile Preferences -->
+    <string name="avatar_title">Avatar</string>
+    <string name="name_title">Name</string>
+    <string name="status_title">Status</string>
+
+    <!-- Miscellaneous Preferences -->
+    <string name="delete_title">Delete Account</string>
+    <string name="delete_confirm">Are you sure you want to delete your account and exit the app?</string>
+
+    <string name="admin_login">Admin Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="signin">Sign in</string>
+    <string name="cancel">Cancel</string>
+</resources>

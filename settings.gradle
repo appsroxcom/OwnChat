@@ -1,0 +1,2 @@
+include ':app'//, ':chatkit'
+//project(':chatkit').projectDir = new File(settingsDir, '../LiveChatKit/chatkit')
