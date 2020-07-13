@@ -30,7 +30,7 @@ dependencies {
     implementation 'androidx.multidex:multidex:2.0.1'
 
     implementation 'com.appsrox:getavatar:1.0.0'
-    implementation 'com.github.appsroxcom:LiveChatKit:4818feb158'
+    implementation 'com.github.appsroxcom:LiveChatKit:master-SNAPSHOT'
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'

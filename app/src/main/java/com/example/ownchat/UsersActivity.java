@@ -2,6 +2,7 @@ package com.example.ownchat;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
@@ -114,7 +115,7 @@ public class UsersActivity extends CustomHolderDialogsActivity {
                     Date lastActive = users.get(index).updatedAt;
                     if (lastActive == null) lastActive = new Date();
 
-                    items.add(new Dialog(user.getId(), user.getName(), user.getAvatar(),
+                    if (!TextUtils.isEmpty(user.getName())) items.add(new Dialog(user.getId(), user.getName(), user.getAvatar(),
                             participants, new Message(null, new User(user.getId(), null, null, false), users.get(index).bio, lastActive), 0));
                 }
                 initAdapter(items);
