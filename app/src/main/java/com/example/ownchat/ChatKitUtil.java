@@ -3,9 +3,9 @@ package com.example.ownchat;
 import android.content.Context;
 import android.text.TextUtils;
 
-public class CommonUtil {
+public class ChatKitUtil {
 
-    private static final String TAG = "CommonUtil";
+    private static final String TAG = "ChatKitUtil";
 
     public static final long REFRESH_INTERVAL = 1000*30;//30s
     public static final int USERS_LIMIT = 100;

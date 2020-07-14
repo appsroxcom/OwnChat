@@ -34,8 +34,8 @@ import live.chatkit.android.model.ChatVO;
 import live.chatkit.android.model.KeyVO;
 import live.chatkit.android.model.UserVO;
 
-import static com.example.ownchat.CommonUtil.CHATS_LIMIT;
-import static com.example.ownchat.CommonUtil.REFRESH_INTERVAL;
+import static com.example.ownchat.ChatKitUtil.CHATS_LIMIT;
+import static com.example.ownchat.ChatKitUtil.REFRESH_INTERVAL;
 import static live.chatkit.android.Constants.CHAT_ID;
 
 public class ChatsActivity extends CustomLayoutDialogsActivity {

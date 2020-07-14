@@ -190,7 +190,7 @@ public class SettingsActivity extends BaseActivity implements AvatarDialog.Avata
             namePref.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
                 @Override
                 public boolean onPreferenceChange(Preference preference, Object newValue) {
-                    if (!CommonUtil.validateText(getContext(), String.valueOf(newValue))) {
+                    if (!ChatKitUtil.validateText(getContext(), String.valueOf(newValue))) {
                         Toast.makeText(getActivity(), R.string.err_text, Toast.LENGTH_SHORT).show();
                         return false;
                     }
@@ -216,7 +216,7 @@ public class SettingsActivity extends BaseActivity implements AvatarDialog.Avata
             statusPref.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
                 @Override
                 public boolean onPreferenceChange(Preference preference, Object newValue) {
-                    if (!CommonUtil.validateText(getContext(), String.valueOf(newValue))) {
+                    if (!ChatKitUtil.validateText(getContext(), String.valueOf(newValue))) {
                         Toast.makeText(getActivity(), R.string.err_text, Toast.LENGTH_SHORT).show();
                         return false;
                     }

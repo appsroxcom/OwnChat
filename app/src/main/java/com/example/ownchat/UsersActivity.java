@@ -23,8 +23,8 @@ import live.chatkit.android.ResultListener;
 import live.chatkit.android.UserRepository;
 import live.chatkit.android.model.UserVO;
 
-import static com.example.ownchat.CommonUtil.REFRESH_INTERVAL;
-import static com.example.ownchat.CommonUtil.USERS_LIMIT;
+import static com.example.ownchat.ChatKitUtil.REFRESH_INTERVAL;
+import static com.example.ownchat.ChatKitUtil.USERS_LIMIT;
 import static live.chatkit.android.Constants.USER_ID;
 
 public class UsersActivity extends CustomHolderDialogsActivity {
