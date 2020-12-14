@@ -57,6 +57,6 @@ ChatKit.init(this, true, true);
 ## References
 
   1. https://github.com/appsroxcom/LiveChatKit
-  2. https://github.com/appsroxcom/AvatarPicker
+  2. https://github.com/appsroxcom/GetAvataaars
 
   
